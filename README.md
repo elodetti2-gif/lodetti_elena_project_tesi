@@ -92,5 +92,5 @@ Each execution generates a timestamped folder inside output/, containing four fo
 - table/: containing performance metrics, feature importances, results tables...
 - text/: containing analytical summaries
 
-##Author
+### Author
 Elena Lodetti
