@@ -33,6 +33,7 @@ The project follows a complete machine learning pipeline structured into the fol
 ---
 
 ## Project Structure
+```text
 data/
 ├── features.csv
 ├── stores.csv
@@ -54,14 +55,15 @@ src/
 
 output/
 ├── run_id (timestamped folder)
-	├── dataset/
-	├── graph/
-	├── table/
-	├── text/
-  
+│   ├── dataset/
+│   ├── graph/
+│   ├── table/
+│   ├── text/
+
 main.py
 requirements.txt
 README.md
+```
 
 ## Installation
 Install the required dependencies using:
@@ -85,10 +87,10 @@ This will execute the complete workflow from data preprocessing to model evaluat
 
 Each execution generates a timestamped folder inside output/, containing four folders:
 
--> dataset/: containing the processed dataset and predictions
--> graph/: containing EDA plots, forecast visualizations, SHAP plots...
--> table/: containing performance metrics, feature importances, results tables...
--> text/: containing analytical summaries
+- dataset/: containing the processed dataset and predictions
+- graph/: containing EDA plots, forecast visualizations, SHAP plots...
+- table/: containing performance metrics, feature importances, results tables...
+- text/: containing analytical summaries
 
 ##Author
 Elena Lodetti
