@@ -1,21 +1,17 @@
 import pandas as pd
-import numpy as np
 import matplotlib
 matplotlib.use('Agg')  # backend alternativo, funziona con finestre grafiche
-import matplotlib.pyplot as plt
-import shap
-import src.data_cleaning as dc
-import src.data_preparation as dp
-import src.exploratory_data_analysis as eg
-import src.feature_engineering as fe
-import src.forecasting as fc
-import src.modelling_and_validation_strategies as mvs
-import src.final_model_explanation as sa
-import src.saving_output as so
-import src.final_model_evaluation as me
-import src.model_selection as ms
-import os
-from datetime import datetime
+from src import data_cleaning as dc
+from src import data_preparation as dp
+from src import exploratory_data_analysis as eg
+from src import feature_engineering as fe
+from src import forecasting as fc
+from src import modelling_and_validation_strategies as mvs
+from src import final_model_explanation as sa
+from src import saving_output as so
+from src import final_model_evaluation as me
+from src import model_selection as ms
+
 
 def main():
 
